@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+
+.home-title{
+    text-align: center;
+    font-size: 40px;
+    margin: 70px 0 0;
+    color: #111;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.home-content{
+    margin: 50px auto 0;
+    width: 70%;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+}
+
+.my-block{
+    border: #333 3px solid;
+    width: min-content;
+    margin: 20px auto;
+    padding: 0 20px;
+    border-radius: 20px;
+}
+
+
+
+.home-logo{
+    width: 400px;
+    height: 400px;
+    /* border: 1px solid black; */
+    margin: 50px auto 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.home-logo > div{
+    width: 70px;
+    height: 100%;
+    background-color: #111;
+
+}
+
+
+
+@media (max-width: 700px){
+
+    .home-title{
+        font-size: 32px;
+    }
+
+    .home-content{
+        font-size: 17px;
+    }
+
+    .home-logo{
+        width: 300px;
+        height: 300px;
+    }
+
+    .home-logo > div{
+        width: 60px;
+    }
+
+}
+
+@media (max-width: 400px){
+    .home-logo{
+        width: 200px;
+        height: 200px;
+    }
+
+    .home-logo > div{
+        width: 40px;
+    }
+
+}
