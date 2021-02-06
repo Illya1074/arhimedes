@@ -4,10 +4,11 @@ import { useHistory } from "react-router-dom";
 
 const Sidebar = () => {
 
-    const history = useHistory();
+    const history = useHistory();    
     
     const buttonClick = (link) =>{
         history.push(link)
+        window.scrollTo(0, 0)
     }
 
     return (
@@ -40,16 +41,17 @@ const Sidebar = () => {
                 Procenty
             </div>
 
+            <div onClick={() => buttonClick('/containers/MaturaPodstawowa/Ciagi/Zadanie1')} className='sidebar-list-element'>
+                Ciągi
+            </div>
+
             <div onClick={() => buttonClick('/containers/MaturaPodstawowa/Rownania/Zadanie1')} className='sidebar-list-element'>
                 Równania
             </div>
 
             <div onClick={() => buttonClick('/containers/MaturaPodstawowa/Wielomiany/Zadanie1')} className='sidebar-list-element'>
                 Wielomiany
-            </div>
-            
-
-            
+            </div>                        
         </div>
     )
 }

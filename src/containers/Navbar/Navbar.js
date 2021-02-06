@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import './Navbar.css';
 import { useHistory } from "react-router-dom";
 import {
@@ -11,6 +11,7 @@ const MyNavbar = () => {
     const [menuState, setMenuState] = useState(true)
     const history = useHistory();
 
+
     const clickFun = () => {
         setMenuState(!menuState)
     }
@@ -18,7 +19,9 @@ const MyNavbar = () => {
   
     
     const buttonClick = (link) =>{
+        window.scrollTo(0, 0)
         history.push(link)
+        
     }
 
     return (
@@ -37,26 +40,18 @@ const MyNavbar = () => {
                     <b>Arhimedes</b>
                 </div>
                 <div className='navbar-menu'>
-                    <Link to="/">
-                        <div className='navbar-menu-element'>
-                            Główna
-                        </div>
-                    </Link>
-                    <Link to="/containers/MaturaPodstawowa/Liczby/Zadanie1">
-                        <div className='navbar-menu-element'>
-                            Praktyka
-                        </div>
-                    </Link>
-                    <Link to="/onas">
-                        <div className='navbar-menu-element'>
-                            O nas
-                        </div>
-                    </Link>
-                    <Link to="/kontakt">
-                        <div className='navbar-menu-element'>
-                            Kontakt
-                        </div>
-                    </Link>
+                    <div onClick={() => buttonClick('/')} className='navbar-menu-element'>
+                        Główna
+                    </div>
+                    <div onClick={() => buttonClick('/containers/MaturaPodstawowa/Liczby/Zadanie1')} className='navbar-menu-element'>
+                        Praktyka
+                    </div>
+                    <div onClick={() => buttonClick('/onas')} className='navbar-menu-element'>
+                        O nas
+                    </div>
+                    <div onClick={() => buttonClick('/kontakt')} className='navbar-menu-element'>
+                        Kontakt
+                    </div>
                 </div>
                 <div className='navbar-burger' onClick={clickFun}>
                     <div/>
@@ -70,23 +65,21 @@ const MyNavbar = () => {
                     <div onClick={() => buttonClick('/')} className='response-menu-my_menu-element'>
                         Główna
                     </div>
-                    <Link to="/containers/MaturaPodstawowa/Liczby/Zadanie1">
-                        <div className='response-menu-my_menu-element'>
-                            Praktyka
-                        </div>
-                    </Link>
-                    <Link to="/kontakt">
-                        <div className='response-menu-my_menu-element'>
-                            Kontakt
-                        </div>
-                    </Link>
                     
-                    <Link to="/onas">
-                        <div className='response-menu-my_menu-element'>
-                            O nas
-                        </div>
-                    </Link>
+                    <div onClick={() => buttonClick('/containers/MaturaPodstawowa/Liczby/Zadanie1')} className='response-menu-my_menu-element'>
+                        Praktyka
+                    </div>
+                
+                    <div onClick={() => buttonClick('/kontakt')} className='response-menu-my_menu-element'>
+                        Kontakt
+                    </div>
+                
+                    <div onClick={() => buttonClick('/onas')} className='response-menu-my_menu-element'>
+                        O nas
+                    </div>
+                    
                 </div>
+                
                 <div className='response-menu-line'></div>
 
                 <div className='response-menu-my_menu'>
@@ -121,6 +114,10 @@ const MyNavbar = () => {
 
                     <div onClick={() => buttonClick('/containers/MaturaPodstawowa/Rownania/Zadanie1')} className='response-menu-my_menu-element'>
                         Równania
+                    </div>
+
+                    <div onClick={() => buttonClick('/containers/MaturaPodstawowa/Ciagi/Zadanie1')} className='response-menu-my_menu-element'>
+                        Ciągi
                     </div>
 
                     <div onClick={() => buttonClick('/containers/MaturaPodstawowa/Wielomiany/Zadanie1')} className='response-menu-my_menu-element'>

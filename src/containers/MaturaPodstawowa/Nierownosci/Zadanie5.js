@@ -1,7 +1,5 @@
 
 import React from 'react'
-import 'katex/dist/katex.min.css';
-import { BlockMath } from 'react-katex';
 // import './FunkcjaKwadratowa.css'
 import Intro from '../../PageElements/Intro/Intro'
 import NextPreviosButtons from '../../PageElements/NextPreviosButtons/NextPreviosButtons'

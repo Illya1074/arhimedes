@@ -12,19 +12,23 @@ const Zadanie = () => {
        
             <div className='study-problem'>
                 
-                <Intro rok={''} zadanie={''} punkty={''} />
+                <Intro rok={'2017'} zadanie={'14'} punkty={'1'} />
                 
                 <div className='study-problem-content'>
-                    
+                    Jeżeli
                 </div> 
 
-                <FormulaProblem val={''}/>
+                <FormulaProblem val={'m = sin50 \\degree'}/>
+
+                <div className='study-problem-content'>
+                    wtedy:
+                </div> 
 
                 <div className='flex-row-arround'>
-                    <FormulaProblem val={'A)'}/>
-                    <FormulaProblem val={'B)'}/>
-                    <FormulaProblem val={'C)'}/>
-                    <FormulaProblem val={'D)'}/>
+                    <FormulaProblem val={'A) m = sin40 \\degree'}/>
+                    <FormulaProblem val={'B) m = cos40 \\degree'}/>
+                    <FormulaProblem val={'C) m = cos50 \\degree'}/>
+                    <FormulaProblem val={'D) m = tg50 \\degree'}/>
                 </div>
 
             </div>
@@ -32,9 +36,17 @@ const Zadanie = () => {
             <div className='study-line' />
 
             <div className='study-content'>
+                Można skorzystać ze wzory redukcyjnego.
             </div>
 
-            <Formula val={''}/>
+            <Formula val={'sin(90 \\degree - \\alpha) = cos \\alpha'}/>
+
+            <div className='study-content'>
+                Czyli
+            </div>
+
+            <Formula val={'sin50 \\degree = sin(90 \\degree - 40 \\degree) = cos40 \\degree'}/>
+
 
             <div className='flex-row-arround'>
                 <div>

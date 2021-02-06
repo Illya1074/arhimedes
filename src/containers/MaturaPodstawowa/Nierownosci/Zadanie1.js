@@ -6,10 +6,11 @@ import { BlockMath } from 'react-katex';
 import Intro from '../../PageElements/Intro/Intro'
 import NextPreviosButtons from '../../PageElements/NextPreviosButtons/NextPreviosButtons'
 
+
 const Zadanie = () => {
     return (
-        <div>
-            <div className='study-problem'>   
+        <div>            
+            <div className='study-problem'>                   
                 <Intro rok={'2016'} zadanie={'5'} punkty={'1'} />
                 
                 <div className='study-problem-content'>

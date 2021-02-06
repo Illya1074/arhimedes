@@ -1,5 +1,5 @@
 
-import React from 'react'
+import React,{useEffect} from 'react'
 import 'katex/dist/katex.min.css';
 import { BlockMath } from 'react-katex';
 // import './FunkcjaKwadratowa.css'
@@ -9,6 +9,9 @@ import './MyCss.css'
 import Twierdzenie from '../../Material/Wzory/Trygonymetria/TrygometryczneDefinicje'
 
 const Zadanie = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <div>            
             <div className='study-problem'>

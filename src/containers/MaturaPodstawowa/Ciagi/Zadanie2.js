@@ -15,19 +15,17 @@ const Zadanie = () => {
        
             <div className='study-problem'>
                 
-                <Intro rok={''} zadanie={''} punkty={''} />
+                <Intro rok={'2017'} zadanie={'13'} punkty={'1'} />
                 
                 <div className='study-problem-content'>
-                    
+                Dany jest trójwyrazowy ciąg geometryczny (24, 6, a - 1). Stąd wynika, że:
                 </div> 
 
-                <FormulaProblem val={''}/>
-
                 <div className='flex-row-arround'>
-                    <FormulaProblem val={'A)'}/>
-                    <FormulaProblem val={'B)'}/>
-                    <FormulaProblem val={'C)'}/>
-                    <FormulaProblem val={'D)'}/>
+                    <FormulaProblem val={'A) \\frac{5}{2}'}/>
+                    <FormulaProblem val={'B) \\frac{2}{5}'}/>
+                    <FormulaProblem val={'C) \\frac{3}{2}'}/>
+                    <FormulaProblem val={'D) \\frac{2}{3}'}/>
                 </div>
 
             </div>
@@ -35,23 +33,40 @@ const Zadanie = () => {
             <div className='study-line' />
 
             <div className='study-content'>
+                Najpierw przydało by się obliczyć nasze q (czyli iloraz).
             </div>
 
-            <Formula/>
+            <Formula val={'a_1 \\cdot q = a_2'} />
 
+            <Formula val={'24 \\cdot q = 6'} />
 
-            <div className='flex-row-arround'>
-                <div>
+            <Formula val={'q = \\frac{6}{24}'} />
 
-                </div>
-                <div>
-                    
-                </div>
+            <Formula val={'q = \\frac{1}{4}'} />
+
+            <div className='study-content'>
+                No i obliczamy nasze a.
             </div>
+
+            <Formula val={'6 \\cdot q = a - 1'} />
+
+            <Formula val={'6 \\cdot \\frac{1}{4} = a - 1'} />
+
+            <Formula val={'\\frac{6}{4} = a - 1'} />
+
+            <Formula val={'\\frac{3}{2} + 1 = a'} />
+
+            <Formula val={'\\frac{3}{2} + \\frac{2}{2} = a'} />
+
+            <Formula val={'\\frac{5}{2} = a'} />
+
+            <Formula val={'Odp: A)'} />
+
 
             <div className='study-line' />
 
-            <NextPreviosButtons/>
+            <NextPreviosButtons next={'/containers/MaturaPodstawowa/Ciagi/Zadanie3'} previos={'/containers/MaturaPodstawowa/Ciagi/Zadanie1'} />
+
 
         </div>
     )
