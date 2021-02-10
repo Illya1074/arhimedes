@@ -13,19 +13,17 @@ const Zadanie = () => {
        
             <div className='study-problem'>
                 
-                <Intro rok={''} zadanie={''} punkty={''} />
+                <Intro rok={'2019'} zadanie={'3'} punkty={'1'} />
                 
                 <div className='study-problem-content'>
-                    
+                    W pewnym banku prowizja od udzielanych kredytów hipotecznych przez cały styczeń była równa 4%. Na początku lutego ten bank obniżył wysokość prowizji od wszystkich kredytów o 1 punkt procentowy. Oznacza to, że prowizja od kredytów hipotecznych w tym banku zmniejszyła się o: 
                 </div> 
 
-                <FormulaProblem val={''}/>
-
                 <div className='flex-row-arround'>
-                    <FormulaProblem val={'A)'}/>
-                    <FormulaProblem val={'B)'}/>
-                    <FormulaProblem val={'C)'}/>
-                    <FormulaProblem val={'D)'}/>
+                    <FormulaProblem val={'A)1 \\%'}/>
+                    <FormulaProblem val={'B)25 \\%'}/>
+                    <FormulaProblem val={'C)33 \\%'}/>
+                    <FormulaProblem val={'D)75 \\%'}/>
                 </div>
 
             </div>
@@ -33,19 +31,13 @@ const Zadanie = () => {
             <div className='study-line' />
 
             <div className='study-content'>
+                Prowizja wynosiła 4% i została zmniejszona o 1 punkt procentowy. Czyli obliczamy jaki procent 1 stanowi od 4.
             </div>
 
-            <Formula/>
-
-
-            <div className='flex-row-arround'>
-                <div>
-
-                </div>
-                <div>
-                    
-                </div>
-            </div>
+            <Formula val={'\\frac{4}{100} = \\frac{1}{x}'}/>
+            <Formula val={'4x = 100'}/>
+            <Formula val={'x = 25%'}/>
+            <Formula val={'Odp: B)'}/>
 
             <div className='study-line' />
 

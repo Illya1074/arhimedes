@@ -12,36 +12,34 @@ const Zadanie = () => {
        
             <div className='study-problem'>
                 
-                <Intro rok={''} zadanie={''} punkty={''} />
+                <Intro rok={'2018'} zadanie={'27'} punkty={'2'} />
                 
                 <div className='study-problem-content'>
-                    
+                    Rozwiąż równanie 
                 </div> 
 
-                <FormulaProblem val={''}/>
-
-                <div className='flex-row-arround'>
-                    <FormulaProblem val={'A)'}/>
-                    <FormulaProblem val={'B)'}/>
-                    <FormulaProblem val={'C)'}/>
-                    <FormulaProblem val={'D)'}/>
-                </div>
+                <FormulaProblem val={'(x^3 + 125)(x^2 - 64) = 0'}/>
 
             </div>
 
             <div className='study-line' />
 
             <div className='study-content'>
+                Przyrównujemy części równania do zera
             </div>
-
-            <Formula val={''}/>
 
             <div className='flex-row-arround'>
                 <div>
-
+                    <Formula val={'x^3 + 125 = 0'}/>
+                    <Formula val={'x^3 = -125'}/>
+                    <Formula val={'x = -5'}/>
                 </div>
+               
                 <div>
-                    
+                    <Formula val={'(x^2 - 64) = 0'}/>
+                    <Formula val={'x^2 = 64'}/>
+                    <Formula val={'x = 8'}/>
+                    <Formula val={'x = -8'}/>
                 </div>
             </div>
 

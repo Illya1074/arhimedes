@@ -13,19 +13,18 @@ const Zadanie = () => {
        
             <div className='study-problem'>
                 
-                <Intro rok={''} zadanie={''} punkty={''} />
+                <Intro rok={'2018'} zadanie={'4'} punkty={'1'} />
                 
                 <div className='study-problem-content'>
-                    
+                    Cena roweru po obniżce o 15% była równa 850 zł. Przed obniżką ten rower kosztował: 
                 </div> 
 
-                <FormulaProblem val={''}/>
 
                 <div className='flex-row-arround'>
-                    <FormulaProblem val={'A)'}/>
-                    <FormulaProblem val={'B)'}/>
-                    <FormulaProblem val={'C)'}/>
-                    <FormulaProblem val={'D)'}/>
+                    <FormulaProblem val={'A)865,00 zl'}/>
+                    <FormulaProblem val={'B)850,00 zl'}/>
+                    <FormulaProblem val={'C)1000,00 zl'}/>
+                    <FormulaProblem val={'D)977,50 zl'}/>
                 </div>
 
             </div>
@@ -33,19 +32,13 @@ const Zadanie = () => {
             <div className='study-line' />
 
             <div className='study-content'>
+                Przyjmijmy że x to nasza cena roweru przed obniżką. Czyli x - 0,15x = 0,85x
             </div>
 
-            <Formula/>
-
-
-            <div className='flex-row-arround'>
-                <div>
-
-                </div>
-                <div>
-                    
-                </div>
-            </div>
+            <Formula val={'0,85x = 850'}/>
+            <Formula val={'x = 850 : 0,85'}/>
+            <Formula val={'x = 1000 zl'}/>
+            <Formula val={'Odp: C)'}/>
 
             <div className='study-line' />
 

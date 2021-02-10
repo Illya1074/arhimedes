@@ -28,7 +28,7 @@ import Wielomiany from './containers/Material/Functions/Wielomiany/Teoria/Wielom
 
 import WartoscBezwglednaZadanie1 from './containers/MaturaPodstawowa/Liczby/Zadanie1'
 
-import Loading from './containers/PageElements/Loading';
+import Loading from './containers/PageElements/Loading/Loading';
 
 const Home = lazy(() => import('./containers/Home/Home'));
 const Kontakt = lazy(() => import('./containers/Kontakt/Kontakt')); 
