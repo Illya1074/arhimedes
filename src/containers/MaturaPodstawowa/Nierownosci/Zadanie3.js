@@ -28,10 +28,10 @@ const Zadanie = () => {
                 </div> 
 
                 <div className='flex-row-arround'>
-                    <FormulaProblem val={'A) (- \\infty, \\frac{1}{6})'}/>
-                    <FormulaProblem val={'B) (- \\infty, \\frac{2}{3})'}/>
-                    <FormulaProblem val={'C) (\\frac{1}{6}, + \\infty)'}/>
-                    <FormulaProblem val={'D) (\\frac{2}{3}, + \\infty)'}/>
+                    <FormulaProblem val={'A)(- \\infty, \\frac{1}{6})'}/>
+                    <FormulaProblem val={'B)(- \\infty, \\frac{2}{3})'}/>
+                    <FormulaProblem val={'C)(\\frac{1}{6}, + \\infty)'}/>
+                    <FormulaProblem val={'D)(\\frac{2}{3}, + \\infty)'}/>
                 </div>
 
             </div>
