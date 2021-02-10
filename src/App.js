@@ -28,7 +28,7 @@ import {
 
 // import WartoscBezwglednaZadanie1 from './containers/MaturaPodstawowa/Liczby/Zadanie1'
 
-// import Loading from './containers/PageElements/Loading/Loading';
+import Loading from './containers/PageElements/Loading/Loading';
 
 const Home = lazy(() => import('./containers/Home/Home'));
 const Kontakt = lazy(() => import('./containers/Kontakt/Kontakt')); 
@@ -360,13 +360,7 @@ function App() {
       <Navbar/>
       <Sidebar/>
       <Main>
-        <Suspense fallback={<div className='animation'>
-        <div className="lds-facebook">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>}>
+        <Suspense fallback={<Loading/>}>
           <Switch>
             <Route exact path="/">
               <Home />
