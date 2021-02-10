@@ -463,13 +463,7 @@ function App() {
       <Navbar/>
       <Sidebar/>
       <Main>
-        <Suspense fallback={<div className='animation'>
-        <div className="lds-facebook">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>}>
+        <Suspense fallback={<Loading/>}>
           <Switch>
             <Route exact path="/">
               <Home />

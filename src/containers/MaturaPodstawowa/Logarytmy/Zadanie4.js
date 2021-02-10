@@ -5,7 +5,7 @@ import Intro from '../../PageElements/Intro/Intro'
 import NextPreviosButtons from '../../PageElements/NextPreviosButtons/NextPreviosButtons'
 import Formula from '../../PageElements/Formula/Formula' 
 import FormulaProblem from '../../PageElements/Formula/FormulaProblem'
-// import Wzor from '../../Material/Wzory/Logarytmy/DzialaniaNaLogarytmach'
+import Wzor from '../../Material/Wzory/Logarytmy/DzialaniaNaLogarytmach'
 
 const Zadanie = () => {
     return (
@@ -36,7 +36,7 @@ const Zadanie = () => {
 
             <div className='study-line' />
 
-            {/* <Wzor/> */}
+            <Wzor/>
 
             <div className='study-line' />
 
