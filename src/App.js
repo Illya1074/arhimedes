@@ -12,24 +12,24 @@ import {
   useLocation
 } from "react-router-dom";
 
-import LiczbyNaturalne from './containers/Material/Numbers/Teoria/LiczbyNaturalne/LiczbyNaturalne'
-import LiczbyCalkowite from './containers/Material/Numbers/Teoria/LiczbyCalkowite/LiczbyCalkowite'
-import LiczbyNiewymierne from './containers/Material/Numbers/Teoria/LiczbaNiewymierne/LiczbaNiewymierne'
-import PotegaOWykladnikuCalkowitym from './containers/Material/Numbers/Teoria/PotegaOWykladnikuCalkowitym/PotegaOWykladnikuCalkowitym'
-import PotegaOWykladnikuWymiernym from './containers/Material/Numbers/Teoria/PotegaOWykladnikuWymiernym/PotegaOWykladnikuWymiernym'
-import DzialanieNaPotegach from './containers/Material/Numbers/Teoria/DzialanieNaPotegach/DzialanieNaPotegach'
-import DzialanieNaPierwiastkach from './containers/Material/Numbers/Teoria/DzialaniaNaPierwiastkach/DzialaniaNaPierwiastkach'
-import WzorySkroconegoMnozenia from './containers/Material/Numbers/Teoria/WzorySkroconegoMnozenia/WzorySkroconegoMnozenia'
-import FunkcjaLioniowa from './containers/Material/Functions/FunkcjaLiniowa/Teoria/FunkcjaLiniowa'
-import FunkcjaKwadratowa from './containers/Material/Functions/FunkcjaKwadratowa/Teoria/FunkcjaKwadratowa'
-import WzoryVieta from './containers/Material/Functions/FunkcjaKwadratowa/Teoria/WzoryVieta'
+// import LiczbyNaturalne from './containers/Material/Numbers/Teoria/LiczbyNaturalne/LiczbyNaturalne'
+// import LiczbyCalkowite from './containers/Material/Numbers/Teoria/LiczbyCalkowite/LiczbyCalkowite'
+// import LiczbyNiewymierne from './containers/Material/Numbers/Teoria/LiczbaNiewymierne/LiczbaNiewymierne'
+// import PotegaOWykladnikuCalkowitym from './containers/Material/Numbers/Teoria/PotegaOWykladnikuCalkowitym/PotegaOWykladnikuCalkowitym'
+// import PotegaOWykladnikuWymiernym from './containers/Material/Numbers/Teoria/PotegaOWykladnikuWymiernym/PotegaOWykladnikuWymiernym'
+// import DzialanieNaPotegach from './containers/Material/Numbers/Teoria/DzialanieNaPotegach/DzialanieNaPotegach'
+// import DzialanieNaPierwiastkach from './containers/Material/Numbers/Teoria/DzialaniaNaPierwiastkach/DzialaniaNaPierwiastkach'
+// import WzorySkroconegoMnozenia from './containers/Material/Numbers/Teoria/WzorySkroconegoMnozenia/WzorySkroconegoMnozenia'
+// import FunkcjaLioniowa from './containers/Material/Functions/FunkcjaLiniowa/Teoria/FunkcjaLiniowa'
+// import FunkcjaKwadratowa from './containers/Material/Functions/FunkcjaKwadratowa/Teoria/FunkcjaKwadratowa'
+// import WzoryVieta from './containers/Material/Functions/FunkcjaKwadratowa/Teoria/WzoryVieta'
+// // import Wielomiany from './containers/Material/Functions/Wielomiany/Teoria/Wielomiany'
 // import Wielomiany from './containers/Material/Functions/Wielomiany/Teoria/Wielomiany'
-import Wielomiany from './containers/Material/Functions/Wielomiany/Teoria/Wielomiany'
 
-import WartoscBezwglednaZadanie1 from './containers/MaturaPodstawowa/Liczby/Zadanie1'
+// import WartoscBezwglednaZadanie1 from './containers/MaturaPodstawowa/Liczby/Zadanie1'
 
 
-// import Loading from './containers/PageElements/Loading/Loading';
+import Loading from './containers/PageElements/Loading/Loading';
 
 const Home = lazy(() => import('./containers/Home/Home'));
 const Kontakt = lazy(() => import('./containers/Kontakt/Kontakt')); 
@@ -41,6 +41,7 @@ const NierownosciZadanie3 = lazy(() => import('./containers/MaturaPodstawowa/Nie
 const NierownosciZadanie4 = lazy(() => import('./containers/MaturaPodstawowa/Nierownosci/Zadanie4')); 
 const NierownosciZadanie5 = lazy(() => import('./containers/MaturaPodstawowa/Nierownosci/Zadanie5')); 
 
+const LiczbyZadanie1 = lazy(() => import('./containers/MaturaPodstawowa/Liczby/Zadanie1'));
 const LiczbyZadanie2 = lazy(() => import('./containers/MaturaPodstawowa/Liczby/Zadanie2'));
 const LiczbyZadanie3 = lazy(() => import('./containers/MaturaPodstawowa/Liczby/Zadanie3')); 
 const LiczbyZadanie4 = lazy(() => import('./containers/MaturaPodstawowa/Liczby/Zadanie4')); 
@@ -306,7 +307,7 @@ function App() {
 
   const routeArrayLiczby = [
     {
-      component : <WartoscBezwglednaZadanie1/>,
+      component : <LiczbyZadanie1/>,
       route: '/containers/MaturaPodstawowa/Liczby/Zadanie1'    
     },
     {
@@ -354,65 +355,13 @@ function App() {
     }
   ]
 
-  const routeArrayTeoria = [
-    {
-      component : <LiczbyNaturalne />,
-      route: '/liczbynaturalne'
-    },
-    {
-      component : <LiczbyCalkowite />,
-      route: '/liczbycalkowite'
-    },
-    {
-      component : <LiczbyNiewymierne />,
-      route: '/liczbyniewymierne'
-    },
-    {
-      component : <PotegaOWykladnikuCalkowitym />,
-      route: '/potegaowykladnikucalkowitym'
-    },
-    {
-      component : <PotegaOWykladnikuWymiernym />,
-      route: '/potegaowykladnikuwymiernym'
-    },
-    {
-      component : <DzialanieNaPotegach />,
-      route: '/dzialanienapotegach'
-    },
-    {
-      component : <WzorySkroconegoMnozenia />,
-      route: '/wzoryskroconegomnozenia'
-    },
-    {
-      component : <FunkcjaLioniowa />,
-      route: '/funkcjalioniowa'
-    },
-    {
-      component : <FunkcjaKwadratowa />,
-      route: '/funkcjakwadratowa'
-    },
-    {
-      component : <WzoryVieta />,
-      route: '/wzoryvieta'
-    },
-    {
-      component : <Wielomiany />,
-      route: '/wielomiany'
-    },
-  ]
-
+  
   return (
     <div className="App">
       <Navbar/>
       <Sidebar/>
       <Main>
-        <Suspense fallback={<div className='animation'>
-        <div className="lds-facebook">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>}>
+        <Suspense fallback={<Loading/>}>
           <Switch>
             <Route exact path="/">
               <Home />
@@ -424,7 +373,7 @@ function App() {
               <Onas />
             </Route>
             {
-              [...routeArrayCiagi, ...routeArrayRownania,...routeArrayLiczby,...routeArrayWielomiany,...routeArrayTeoria, ...routeArrayFunkcje,
+              [...routeArrayCiagi, ...routeArrayRownania,...routeArrayLiczby,...routeArrayWielomiany, ...routeArrayFunkcje,
                 ...routeArrayTrygonymetria,...routeArrayPotegi,...routeArrayLogarytmy,...routeArrayProcenty,...routeArrayNierownosci].map((item, i) => (
                   <Route exact key={i} path= {item.route}>
                     {item.component}
@@ -442,3 +391,50 @@ function App() {
 }
 
 export default App;
+
+// const routeArrayTeoria = [
+  //   {
+  //     component : <LiczbyNaturalne />,
+  //     route: '/liczbynaturalne'
+  //   },
+  //   {
+  //     component : <LiczbyCalkowite />,
+  //     route: '/liczbycalkowite'
+  //   },
+  //   {
+  //     component : <LiczbyNiewymierne />,
+  //     route: '/liczbyniewymierne'
+  //   },
+  //   {
+  //     component : <PotegaOWykladnikuCalkowitym />,
+  //     route: '/potegaowykladnikucalkowitym'
+  //   },
+  //   {
+  //     component : <PotegaOWykladnikuWymiernym />,
+  //     route: '/potegaowykladnikuwymiernym'
+  //   },
+  //   {
+  //     component : <DzialanieNaPotegach />,
+  //     route: '/dzialanienapotegach'
+  //   },
+  //   {
+  //     component : <WzorySkroconegoMnozenia />,
+  //     route: '/wzoryskroconegomnozenia'
+  //   },
+  //   {
+  //     component : <FunkcjaLioniowa />,
+  //     route: '/funkcjalioniowa'
+  //   },
+  //   {
+  //     component : <FunkcjaKwadratowa />,
+  //     route: '/funkcjakwadratowa'
+  //   },
+  //   {
+  //     component : <WzoryVieta />,
+  //     route: '/wzoryvieta'
+  //   },
+  //   {
+  //     component : <Wielomiany />,
+  //     route: '/wielomiany'
+  //   },
+  // ]
