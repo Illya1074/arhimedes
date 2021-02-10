@@ -24,7 +24,7 @@ const Zadanie = () => {
                 <FormulaProblem val={'\\frac{1-2x}{2} > \\frac{1}{3}'}/>
  
                 <div className='study-problem-content'>
-                    jest przedział:
+                    jest przedział
                 </div> 
 
                 <div className='flex-row-arround'>
