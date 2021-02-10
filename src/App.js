@@ -90,7 +90,7 @@ import WartoscBezwglednaZadanie1 from './containers/MaturaPodstawowa/Liczby/Zada
 //import CiagiZadanie3 from './containers/MaturaPodstawowa/Ciagi/Zadanie3'
 //import CiagiZadanie4 from './containers/MaturaPodstawowa/Ciagi/Zadanie4'
 //import CiagiZadanie5 from './containers/MaturaPodstawowa/Ciagi/Zadanie5'
-import Loading from './containers/Loading/Loading';
+// import Loading from './containers/PageElements/Loading/Loading';
 
 const NierownosciZadanie1 = lazy(() => import('./containers/MaturaPodstawowa/Nierownosci/Zadanie1'));
 const NierownosciZadanie2 = lazy(() => import('./containers/MaturaPodstawowa/Nierownosci/Zadanie2')); 
