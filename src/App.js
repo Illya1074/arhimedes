@@ -28,7 +28,6 @@ import {
 
 // import WartoscBezwglednaZadanie1 from './containers/MaturaPodstawowa/Liczby/Zadanie1'
 
-
 import Loading from './containers/PageElements/Loading/Loading';
 
 const Home = lazy(() => import('./containers/Home/Home'));
