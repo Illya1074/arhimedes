@@ -36,7 +36,7 @@ const Zadanie = () => {
 
             <div className='study-line' />
 
-            <Wzor/>
+            <Wzor/> 
 
             <div className='study-line' />
 

@@ -100,13 +100,15 @@ const CiagiZadanie5 = lazy(() => import('./containers/MaturaPodstawowa/Ciagi/Zad
 const trackingId = "UA-189614816-1"; // Replace with your Google Analytics tracking ID
 ReactGA.initialize(trackingId);
 
-
 function usePageViews() {
   let location = useLocation();
+  ReactGA.set({ page: location.pathname }); // Update the user's current page
+  ReactGA.pageview(location.pathname);
+  
   React.useEffect(() => {
     ReactGA.set({ page: location.pathname }); // Update the user's current page
     ReactGA.pageview(location.pathname); // Record a pageview for the given page
-    console.log(location.pathname);
+    // console.log(location.pathname);
   }, [location]);
 }
 
