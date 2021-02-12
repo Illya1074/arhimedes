@@ -97,7 +97,7 @@ const CiagiZadanie5 = lazy(() => import('./containers/MaturaPodstawowa/Ciagi/Zad
 
 
 
-const trackingId = "UA-189614816-1"; // Replace with your Google Analytics tracking ID
+const trackingId = "UA-189614816-2"; // Replace with your Google Analytics tracking ID
 ReactGA.initialize(trackingId);
 
 function usePageViews() {
