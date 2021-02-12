@@ -318,6 +318,42 @@ b{
   margin: 30px 20px 0;
 }
 
+.study-pic-custom{
+  width: 650px;
+    height: 260px;
+    border-radius: 10px;
+    margin: 40px auto;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.33); 
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.33);
+}
+
+@media (max-width: 1150px){
+
+  .study-pic-custom.jhk7{
+      width: 575px;
+      height: 230px;
+  }
+}
+
+
+
+@media (max-width: 900px){
+
+  .study-pic-custom.jhk7{
+      width: 500px;
+      height: 200px;
+  }
+}
+
+
+@media (max-width: 650px){
+
+  .study-pic-custom.jhk7{
+      width: 300px;
+      height: 120px;
+  }
+}
+
 
 @media (max-width: 1300px){
   .study-problem{

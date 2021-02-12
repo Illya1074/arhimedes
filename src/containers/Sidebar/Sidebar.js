@@ -49,9 +49,9 @@ const Sidebar = () => {
                 Równania
             </div>
 
-            <div onClick={() => buttonClick('/containers/MaturaPodstawowa/Wielomiany/Zadanie1')} className='sidebar-list-element'>
+            {/* <div onClick={() => buttonClick('/containers/MaturaPodstawowa/Wielomiany/Zadanie1')} className='sidebar-list-element'>
                 Wielomiany
-            </div>                        
+            </div>                         */}
         </div>
     )
 }

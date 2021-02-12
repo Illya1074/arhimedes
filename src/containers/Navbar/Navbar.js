@@ -54,9 +54,9 @@ const MyNavbar = () => {
                     </div>
                 </div>
                 <div className='navbar-burger' onClick={clickFun}>
-                    <div/>
-                    <div/>
-                    <div/>
+                    <div className='navbar-burger-elements-first'/>
+                    <div className='navbar-burger-elements-middle'/>
+                    <div className='navbar-burger-elements-last'/>
                 </div>
             </div>
 

@@ -31,65 +31,7 @@ import Wielomiany from './containers/Material/Functions/Wielomiany/Teoria/Wielom
 
 import WartoscBezwglednaZadanie1 from './containers/MaturaPodstawowa/Liczby/Zadanie1'
 
-// import LiczbyZadanie2 from './containers/MaturaPodstawowa/Liczby/Zadanie2'
-// import LiczbyZadanie3 from './containers/MaturaPodstawowa/Liczby/Zadanie3'
-// import LiczbyZadanie4 from './containers/MaturaPodstawowa/Liczby/Zadanie4'
-// import LiczbyZadanie5 from './containers/MaturaPodstawowa/Liczby/Zadanie5'
-// import LiczbyZadanie6 from './containers/MaturaPodstawowa/Liczby/Zadanie6'
 
-// import WielomianyZadanie1 from './containers/MaturaPodstawowa/Wielomiany/Zadanie1'
-// import WielomianyZadanie2 from './containers/MaturaPodstawowa/Wielomiany/Zadanie2'
-// import WielomianyZadanie3 from './containers/MaturaPodstawowa/Wielomiany/Zadanie3'
-// import WielomianyZadanie4 from './containers/MaturaPodstawowa/Wielomiany/Zadanie4'
-// import WielomianyZadanie5 from './containers/MaturaPodstawowa/Wielomiany/Zadanie5'
-
-// import FunkcjeZadanie1 from './containers/MaturaPodstawowa/Funkcje/Zadanie1'
-// import FunkcjeZadanie2 from './containers/MaturaPodstawowa/Funkcje/Zadanie2'
-// import FunkcjeZadanie3 from './containers/MaturaPodstawowa/Funkcje/Zadanie3'
-// import FunkcjeZadanie4 from './containers/MaturaPodstawowa/Funkcje/Zadanie4'
-// import FunkcjeZadanie5 from './containers/MaturaPodstawowa/Funkcje/Zadanie5'
-
-// import TrygonymetriaZadanie1 from './containers/MaturaPodstawowa/Trygomymetria/Zadanie1'
-// import TrygonymetriaZadanie2 from './containers/MaturaPodstawowa/Trygomymetria/Zadanie2'
-// import TrygonymetriaZadanie3 from './containers/MaturaPodstawowa/Trygomymetria/Zadanie3'
-// import TrygonymetriaZadanie4 from './containers/MaturaPodstawowa/Trygomymetria/Zadanie4'
-// import TrygonymetriaZadanie5 from './containers/MaturaPodstawowa/Trygomymetria/Zadanie5'
-
-// import PotegiZadanie1 from './containers/MaturaPodstawowa/Potegi/Zadanie1'
-// import PotegiZadanie2 from './containers/MaturaPodstawowa/Potegi/Zadanie2'
-// import PotegiZadanie3 from './containers/MaturaPodstawowa/Potegi/Zadanie3'
-// import PotegiZadanie4 from './containers/MaturaPodstawowa/Potegi/Zadanie4'
-// import PotegiZadanie5 from './containers/MaturaPodstawowa/Potegi/Zadanie5'
-
-// import LogarytmyZadanie1 from './containers/MaturaPodstawowa/Logarytmy/Zadanie1'
-// import LogarytmyZadanie2 from './containers/MaturaPodstawowa/Logarytmy/Zadanie2'
-// import LogarytmyZadanie3 from './containers/MaturaPodstawowa/Logarytmy/Zadanie3'
-// import LogarytmyZadanie4 from './containers/MaturaPodstawowa/Logarytmy/Zadanie4'
-// import LogarytmyZadanie5 from './containers/MaturaPodstawowa/Logarytmy/Zadanie5'
-
-// import ProcentyZadanie1 from './containers/MaturaPodstawowa/Procenty/Zadanie1'
-// import ProcentyZadanie2 from './containers/MaturaPodstawowa/Procenty/Zadanie2'
-// import ProcentyZadanie3 from './containers/MaturaPodstawowa/Procenty/Zadanie3'
-// import ProcentyZadanie4 from './containers/MaturaPodstawowa/Procenty/Zadanie4'
-// import ProcentyZadanie5 from './containers/MaturaPodstawowa/Procenty/Zadanie5'
-
-// import NierownosciZadanie1 from './containers/MaturaPodstawowa/Nierownosci/Zadanie1'
-// import NierownosciZadanie2 from './containers/MaturaPodstawowa/Nierownosci/Zadanie2'
-// import NierownosciZadanie3 from './containers/MaturaPodstawowa/Nierownosci/Zadanie3'
-// import NierownosciZadanie4 from './containers/MaturaPodstawowa/Nierownosci/Zadanie4'
-// import NierownosciZadanie5 from './containers/MaturaPodstawowa/Nierownosci/Zadanie5'
-
-//import RownaniaZadanie1 from './containers/MaturaPodstawowa/Rownania/Zadanie1'
-//import RownaniaZadanie2 from './containers/MaturaPodstawowa/Rownania/Zadanie2'
-//import RownaniaZadanie3 from './containers/MaturaPodstawowa/Rownania/Zadanie3'
-//import RownaniaZadanie4 from './containers/MaturaPodstawowa/Rownania/Zadanie4'
-//import RownaniaZadanie5 from './containers/MaturaPodstawowa/Rownania/Zadanie5'
-
-//import CiagiZadanie1 from './containers/MaturaPodstawowa/Ciagi/Zadanie1'
-//import CiagiZadanie2 from './containers/MaturaPodstawowa/Ciagi/Zadanie2'
-//import CiagiZadanie3 from './containers/MaturaPodstawowa/Ciagi/Zadanie3'
-//import CiagiZadanie4 from './containers/MaturaPodstawowa/Ciagi/Zadanie4'
-//import CiagiZadanie5 from './containers/MaturaPodstawowa/Ciagi/Zadanie5'
 import Loading from './containers/PageElements/Loading/Loading';
 
 const NierownosciZadanie1 = lazy(() => import('./containers/MaturaPodstawowa/Nierownosci/Zadanie1'));
@@ -155,7 +97,7 @@ const CiagiZadanie5 = lazy(() => import('./containers/MaturaPodstawowa/Ciagi/Zad
 
 
 
-const trackingId = "G-9ZR7G2P57T"; // Replace with your Google Analytics tracking ID
+const trackingId = "UA-189614816-1"; // Replace with your Google Analytics tracking ID
 ReactGA.initialize(trackingId);
 
 

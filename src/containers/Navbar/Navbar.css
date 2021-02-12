@@ -126,8 +126,30 @@
         cursor: pointer;
         transition: 0.1s;
     }
+/* 
+    .navbar-burger-elements{
+        width: 100%;
+        height: 3px;
+        border-radius: 10px;
+        background-color: #f2f2f2;
+    } */
 
-    .navbar-burger > div{
+    .navbar-burger-elements-first{
+        width: 100%;
+        height: 5px;
+        border-radius: 10px 10px 0 0;
+        background-color: #f2f2f2;
+    }
+
+
+    .navbar-burger-elements-last{
+        width: 100%;
+        height: 5px;
+        border-radius: 0 0 10px 10px;
+        background-color: #f2f2f2;
+    }
+
+    .navbar-burger-elements-middle{
         width: 100%;
         height: 3px;
         border-radius: 10px;
