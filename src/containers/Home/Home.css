@@ -4,21 +4,35 @@
 
 .home-title{
     text-align: center;
-    font-size: 40px;
-    margin: 70px 0 0;
+    font-size: 45px;
+    margin: 30px 0 0;
     color: #111;
     font-weight: bold;
     font-family: 'Lato', sans-serif;
 }
 
+.home-title-little{
+    text-align: center;
+    font-size: 35px;
+    margin: 30px 0 0;
+    color: #111;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
 
 .home-content{
+    /* border: 1px solid black; */
+    /* padding: 25px 0; */
+    padding: 15px;
     margin: 50px auto 0;
-    width: 70%;
+    width: 45%;
     font-size: 20px;
     font-family: 'Lato', sans-serif;
     text-align: justify;
 }
+
+
+
 
 .my-block{
     border: #333 3px solid;
@@ -31,12 +45,12 @@
 
 
 .home-logo{
-    width: 500px;
-    height: 500px;
+    width: 250px;
+    height: 250px;
     border: 10px solid #111;
     -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.33); 
     box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.33);
-    padding: 50px;
+    padding: 30px;
     border-radius: 30px;
     margin: 50px auto 0;
     display: flex;
@@ -47,23 +61,81 @@
 
 
 .home-logo > div{
-    width: 70px;
+    width: 35px;
     height: 100%;
     background-color: #111;
 
 }
 
 
+.home-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.home-img{
+    width: 250px;
+    height: 250px;
+    /* border: 1px solid #111; */
+    margin: 50px auto 0;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.33); 
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.33);
+    border-radius: 30px;
+}
+
+.home-img.one{
+    background: url('./images/example.png') center/100% 100% no-repeat;
+}
+.home-img.two{
+    background: url('./images/example2.png') center/100% 100% no-repeat;
+}
+
+@media (max-width: 865px){
+    .home-flex{
+        flex-direction: column;
+        margin: 10px auto;
+    }
+    .home-flex.active{
+        flex-direction: column-reverse;
+    }
+    .home-content{
+        width: 75%;
+        margin: 15px auto 0;
+        padding: 10px 0;
+    }
+    .home-title{
+        margin: 10px auto 0;
+    }
+    .home-title-little{
+        margin: 15px auto 0;
+
+    }
+
+}
+
 
 @media (max-width: 700px){
 
-    .home-title{
-        font-size: 32px;
+    .home-content{
+        width: 85%;
+        font-size: 15px;
     }
 
-    .home-content{
-        font-size: 17px;
+    .home-title{
+        font-size: 32px;
+        margin: 10px auto;
+
     }
+
+    .home-title-little{
+        font-size: 26px;
+        margin: 10px auto;
+
+    }
+
 
     .home-logo{
         width: 300px;
@@ -93,5 +165,9 @@
         width: 25px;
     }
 
+    .home-img{
+        width: 200px;
+        height: 200px;
+    }
 
 }
