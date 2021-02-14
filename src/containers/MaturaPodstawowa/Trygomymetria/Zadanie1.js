@@ -18,11 +18,8 @@ const Zadanie = () => {
                 
                 <Intro rok={'2015'} zadanie={'14'} punkty={'1'} />
                 
-               
-
                 <div className='study-pic-custom jhk7'>
                 </div> 
-
                 
             </div>
             
