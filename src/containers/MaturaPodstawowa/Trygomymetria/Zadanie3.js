@@ -59,7 +59,8 @@ const Zadanie = () => {
 
             <div className='study-line' />
 
-            <NextPreviosButtons/>
+            <NextPreviosButtons next={'/containers/MaturaPodstawowa/Trygomymetria/Zadanie4'} previos={'/containers/MaturaPodstawowa/Trygomymetria/Zadanie2'}/>
+
 
         </div>
     )

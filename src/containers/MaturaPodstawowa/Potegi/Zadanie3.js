@@ -54,7 +54,8 @@ const Zadanie = () => {
 
             <div className='study-line' />
 
-            <NextPreviosButtons/>
+            <NextPreviosButtons next={'/containers/MaturaPodstawowa/Potegi/Zadanie2'} previos={'/containers/MaturaPodstawowa/Potegi/Zadanie4'}/>
+
 
         </div>
     )

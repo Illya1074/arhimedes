@@ -75,7 +75,8 @@ const Zadanie = () => {
                 Czyli odpowiedzią będzie C bo -26 jest mniejsze od -2. 
             </div>
 
-            {/* <NextPreviosButtons/> */}
+            <NextPreviosButtons next={'/containers/MaturaPodstawowa/Nierownosci/Zadanie2'} previos={'/containers/MaturaPodstawowa/Nierownosci/Zadanie5'}/>
+
 
         </div>
     )

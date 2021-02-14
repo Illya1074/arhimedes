@@ -37,7 +37,8 @@ const Zadanie = () => {
 
 
 
-            <NextPreviosButtons/>
+            <NextPreviosButtons next={'/containers/MaturaPodstawowa/Trygomymetria/Zadanie5'} previos={'/containers/MaturaPodstawowa/Trygomymetria/Zadanie3'}/>
+
 
         </div>
     )

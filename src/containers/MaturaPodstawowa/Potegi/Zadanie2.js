@@ -88,15 +88,6 @@ const Zadanie = () => {
             </div>
 
 
-            <div className='flex-row-arround'>
-                <div>
-
-                </div>
-                <div>
-                    
-                </div>
-            </div>
-
             <NextPreviosButtons next={'/containers/MaturaPodstawowa/Potegi/Zadanie1'} previos={'/containers/MaturaPodstawowa/Potegi/Zadanie1'}/>
 
 

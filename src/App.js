@@ -7,8 +7,6 @@ import Navbar from './containers/Navbar/Navbar'
 import Sidebar from './containers/Sidebar/Sidebar'
 import Main from './containers/Main/Main'
 import Home from './containers/Home/Home'
-import Kontakt from './containers/Kontakt/Kontakt'
-import Onas from './containers/Onas/Onas'
 import {
   Switch,
   Route,
@@ -28,11 +26,11 @@ import FunkcjaKwadratowa from './containers/Material/Functions/FunkcjaKwadratowa
 import WzoryVieta from './containers/Material/Functions/FunkcjaKwadratowa/Teoria/WzoryVieta'
 // import Wielomiany from './containers/Material/Functions/Wielomiany/Teoria/Wielomiany'
 import Wielomiany from './containers/Material/Functions/Wielomiany/Teoria/Wielomiany'
-
 import WartoscBezwglednaZadanie1 from './containers/MaturaPodstawowa/Liczby/Zadanie1'
-
-
 import Loading from './containers/PageElements/Loading/Loading';
+
+const Kontakt = lazy(() => import('./containers/Kontakt/Kontakt'));
+const Onas = lazy(() => import('./containers/Onas/Onas'));
 
 const NierownosciZadanie1 = lazy(() => import('./containers/MaturaPodstawowa/Nierownosci/Zadanie1'));
 const NierownosciZadanie2 = lazy(() => import('./containers/MaturaPodstawowa/Nierownosci/Zadanie2')); 

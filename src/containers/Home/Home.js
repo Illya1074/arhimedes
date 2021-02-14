@@ -36,7 +36,7 @@ const Home = () => {
                 </div>
 
                 <div className="home-content">
-                    Wszystko co jest potrzebne to tylko praktyla oraz liczenie.
+                    Wszystko co jest potrzebne to tylko praktyka oraz liczenie.
                     Na naszej stronie odnajdziesz maturalne zadania z ubiegłych 
                     lat co zapewni rozumieniu poziomu egzaminu oraz kształtuje
                     umiejętność rozwiązywania tego typu zadań.
