@@ -86,8 +86,8 @@ const RownaniaZadanie3 = lazy(() => import('./containers/MaturaPodstawowa/Rownan
 const RownaniaZadanie4 = lazy(() => import('./containers/MaturaPodstawowa/Rownania/Zadanie4')); 
 const RownaniaZadanie5 = lazy(() => import('./containers/MaturaPodstawowa/Rownania/Zadanie5')); 
 
-const CiagiZadanie2 = lazy(() => import('./containers/MaturaPodstawowa/Ciagi/Zadanie1')); 
-const CiagiZadanie1 = lazy(() => import('./containers/MaturaPodstawowa/Ciagi/Zadanie2'));
+const CiagiZadanie1 = lazy(() => import('./containers/MaturaPodstawowa/Ciagi/Zadanie1')); 
+const CiagiZadanie2 = lazy(() => import('./containers/MaturaPodstawowa/Ciagi/Zadanie2'));
 const CiagiZadanie3 = lazy(() => import('./containers/MaturaPodstawowa/Ciagi/Zadanie3')); 
 const CiagiZadanie4 = lazy(() => import('./containers/MaturaPodstawowa/Ciagi/Zadanie4')); 
 const CiagiZadanie5 = lazy(() => import('./containers/MaturaPodstawowa/Ciagi/Zadanie5')); 

@@ -137,7 +137,7 @@ const Zadanie = () => {
                 Widzimy że lewa strona równa się prawej w przypadku A) czyli kiedy a = 3.
             </div>
 
-            <NextPreviosButtons next={'/containers/MaturaPodstawowa/Rownania/Zadanie2'} previos={'/containers/MaturaPodstawowa/Rownania/Zadanie2'}/>
+            <NextPreviosButtons next={'/containers/MaturaPodstawowa/Rownania/Zadanie2'} previos={'/containers/MaturaPodstawowa/Rownania/Zadanie5'}/>
 
         </div>
     )

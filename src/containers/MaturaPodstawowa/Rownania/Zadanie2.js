@@ -119,7 +119,7 @@ const Zadanie = () => {
             </div>
 
 
-            <NextPreviosButtons next={'/containers/MaturaPodstawowa/Rownania/Zadanie1'} previos={'/containers/MaturaPodstawowa/Rownania/Zadanie1'}/>
+            <NextPreviosButtons next={'/containers/MaturaPodstawowa/Rownania/Zadanie3'} previos={'/containers/MaturaPodstawowa/Rownania/Zadanie1'}/>
 
         </div>
     )
