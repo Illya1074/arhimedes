@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,400&display=swap');
@@ -6,12 +13,19 @@
     height: 70px;
     width: 100vw;
     background-color:#111111;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: fixed;
     top: 0;
     left: 0;
-    flex-direction: row;
-    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     /* -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.33); 
     box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.33); */
     z-index: 90;
@@ -25,15 +39,25 @@
     color:#f2f2f2;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     cursor: pointer;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
 }
 
 .navbar-menu{
     font-size: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     margin: auto 20px auto 0;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1.5px;
@@ -44,12 +68,16 @@
     color:#f2f2f2;
     font-size: 18px;
     margin: 0 10px;
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
     transition: 0.1s;
     cursor: pointer;
 }
 
 .navbar-menu-element:hover{
     color:#666;
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
     transition: 0.1s;
 }
 
@@ -76,9 +104,16 @@
 }
 
 .navbar-logo-III{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: 32px;
     height: 31px;
     margin: auto 10px auto 0;
@@ -117,13 +152,22 @@
     
     
     .navbar-burger{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         width: 30px;
         height: 23px;
         margin: auto 40px auto;
         cursor: pointer;
+        -webkit-transition: 0.1s;
+        -o-transition: 0.1s;
         transition: 0.1s;
     }
 /* 
@@ -157,11 +201,15 @@
     }
 
     .navbar-burger:hover{
+        -webkit-transition: 0.1s;
+        -o-transition: 0.1s;
         transition: 0.1s;
         width: 35px;
     }
 
     .navbar-burger:active{
+        -webkit-transition: 0.1s;
+        -o-transition: 0.1s;
         transition: 0.1s;
         height: 35px;
     }
@@ -173,9 +221,14 @@
     }
 
     .response-menu{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         overflow-y: scroll;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         position: fixed;
         top: 70px;
         background-color: #111;
@@ -195,9 +248,16 @@
         margin: 30px auto 0;
         width: 200px;
         text-align: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
 
     }
 
@@ -208,11 +268,15 @@
         font-size: 18px;
         margin: 10px 0;
         cursor: pointer;
+        -webkit-transition: 0.1s;
+        -o-transition: 0.1s;
         transition: 0.1s;
     }
 
     .response-menu-my_menu-element:hover{
         color: #666;
+        -webkit-transition: 0.1s;
+        -o-transition: 0.1s;
         transition: 0.1s;
     }
 
