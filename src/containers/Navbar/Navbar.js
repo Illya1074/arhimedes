@@ -43,8 +43,8 @@ const MyNavbar = () => {
                     <div onClick={() => buttonClick('/')} className='navbar-menu-element'>
                         Główna
                     </div>
-                    <div onClick={() => buttonClick('/containers/MaturaPodstawowa/Liczby/Zadanie1')} className='navbar-menu-element'>
-                        Praktyka
+                    <div onClick={() => buttonClick('/korepetycje')} className='navbar-menu-element'>
+                        E-Korepetycje
                     </div>
                     <div onClick={() => buttonClick('/onas')} className='navbar-menu-element'>
                         O nas
@@ -66,8 +66,8 @@ const MyNavbar = () => {
                         Główna
                     </div>
                     
-                    <div onClick={() => buttonClick('/containers/MaturaPodstawowa/Liczby/Zadanie1')} className='response-menu-my_menu-element'>
-                        Praktyka
+                    <div onClick={() => buttonClick('/korepetycje')} className='response-menu-my_menu-element'>
+                        E-Korepetycje
                     </div>
                 
                     <div onClick={() => buttonClick('/kontakt')} className='response-menu-my_menu-element'>

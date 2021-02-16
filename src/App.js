@@ -31,6 +31,7 @@ import Loading from './containers/PageElements/Loading/Loading';
 
 const Kontakt = lazy(() => import('./containers/Kontakt/Kontakt'));
 const Onas = lazy(() => import('./containers/Onas/Onas'));
+const Korepetycje = lazy(() => import('./containers/Korepetycje/Korepetycje'));
 
 const NierownosciZadanie1 = lazy(() => import('./containers/MaturaPodstawowa/Nierownosci/Zadanie1'));
 const NierownosciZadanie2 = lazy(() => import('./containers/MaturaPodstawowa/Nierownosci/Zadanie2')); 
@@ -399,7 +400,7 @@ function App() {
       route: '/wielomiany'
     },
   ]
-
+  
   return (
     <div className="App">
       <Navbar/>
@@ -412,6 +413,9 @@ function App() {
             </Route>
             <Route exact path="/kontakt">
               <Kontakt />
+            </Route>
+            <Route exact path="/korepetycje">
+              <Korepetycje />
             </Route>
             <Route exact path="/Onas">
               <Onas />
