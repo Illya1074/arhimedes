@@ -174,7 +174,7 @@ const MyNavbar = () => {
                     </div>
 
                     <div className='response-menu-my_menu-flex'>
-                        <Icon3 fill="#f2f2f2" height='30px' width="30px" className="respons-sidebar-icon"/>
+                        <Icon5 fill="#f2f2f2" height='30px' width="30px" className="respons-sidebar-icon"/>
 
                         <div onClick={() => buttonClick('/containers/MaturaPodstawowa/Rownania/Zadanie1')} className='response-menu-my_menu-element'>
                             Równania
@@ -182,7 +182,7 @@ const MyNavbar = () => {
                     </div>
 
                     <div className='response-menu-my_menu-flex'>
-                        <Icon5 fill="#f2f2f2" height='30px' width="30px" className="respons-sidebar-icon"/>
+                        <Icon3 fill="#f2f2f2" height='30px' width="30px" className="respons-sidebar-icon"/>
 
                         <div onClick={() => buttonClick('/containers/MaturaPodstawowa/Ciagi/Zadanie1')} className='response-menu-my_menu-element'>
                             Ciągi
