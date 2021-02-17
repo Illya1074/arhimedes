@@ -9,7 +9,7 @@ const Home = () => {
 
             <div className="home-intro">
                 <div className="home-intro-title">
-                    <q>Nie przejmuj się, jeżeli masz problemy z matematyka. Zapewniam Cię, że ja mam jeszcze większe.</q>
+                    <q>Nie przejmuj się, jeżeli masz problemy z matematyką. Zapewniam Cię, że ja mam jeszcze większe.</q>
                 </div>
                 <div className="home-intro-autor">
                     <i>-&nbsp;Albert&nbsp;Einstein</i>
