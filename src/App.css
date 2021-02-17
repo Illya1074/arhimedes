@@ -26,11 +26,12 @@ body{
 /* Lazy loading animation */
 
 .animation{
-  margin: 10px auto;
+  margin: 170px auto 0;
   width: -webkit-min-content;
   width: -moz-min-content;
   width: min-content;  
 }
+
 .lds-facebook {
   display: inline-block;
   position: relative;

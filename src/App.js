@@ -405,34 +405,43 @@ function App() {
     <div className="App">
       <Navbar/>
       <Sidebar/>
-      
-        <Suspense fallback={<Loading/>}>
-          <Switch>
-            <Route exact path="/">
-              <Home />
+      <Suspense fallback={<Loading/>}>
+
+        <Switch>
+
+          <Route exact path="/">
+            <Home />
+          </Route>
+
+          <Main>
+                
+            <Route exact path="/kontakt">
+              <Kontakt />
             </Route>
-            <Main>
-              <Route exact path="/kontakt">
-                <Kontakt />
-              </Route>
-              <Route exact path="/korepetycje">
-                <Korepetycje />
-              </Route>
-              <Route exact path="/Onas">
-                <Onas />
-              </Route>
-                {
-                  [...routeArrayCiagi, ...routeArrayRownania,...routeArrayLiczby,...routeArrayWielomiany,...routeArrayTeoria, ...routeArrayFunkcje,
-                    ...routeArrayTrygonymetria,...routeArrayPotegi,...routeArrayLogarytmy,...routeArrayProcenty,...routeArrayNierownosci].map((item, i) => (
-                      <Route exact key={i} path= {item.route}>
-                        {item.component}
-                      </Route>
-                    ) 
-                  )
-                }
-              </Main>
-          </Switch>
-        </Suspense>
+            
+            <Route exact path="/korepetycje">
+              <Korepetycje />
+            </Route>
+            
+            <Route exact path="/Onas">
+              <Onas />
+            </Route>
+            
+            {
+              [...routeArrayCiagi, ...routeArrayRownania,...routeArrayLiczby,...routeArrayWielomiany,...routeArrayTeoria, ...routeArrayFunkcje,
+                ...routeArrayTrygonymetria,...routeArrayPotegi,...routeArrayLogarytmy,...routeArrayProcenty,...routeArrayNierownosci].map((item, i) => (
+                  <Route exact key={i} path= {item.route}>
+                    {item.component}
+                  </Route>
+                ) 
+              )
+            }
+
+          </Main>
+
+        </Switch>
+
+      </Suspense>
       
     </div>
   );

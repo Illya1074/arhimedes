@@ -70,7 +70,7 @@ const MyNavbar = () => {
                         Kontakt
                     </div>
                     <div className='navbar-menu-element active'>
-                        v2.0.1
+                        v2.1.3
                     </div>
                 </div>
                 <div className='navbar-burger' onClick={clickFun}>
