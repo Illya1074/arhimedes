@@ -61,9 +61,9 @@ const Home = () => {
                             Zadania
                         </div>
                         <div className="home-section-content-text">
-                        Wszystko co jest potrzebne to tylko praktyka oraz liczenie.
-                        Na naszej stronie odnajdziesz maturalne zadania z&nbsp;ubiegłych 
-                        lat co zapewni rozumieniu poziomu egzaminu.  
+                            Wszystko co jest potrzebne to tylko praktyka oraz liczenie.
+                            Na naszej stronie odnajdziesz maturalne zadania z&nbsp;ubiegłych 
+                            lat co zapewni rozumieniu poziomu egzaminu.  
                         </div>
                     </div>
                     <div className="home-section-content-flex">

@@ -25,6 +25,10 @@ body{
 
 /* Lazy loading animation */
 
+.animation-wrap{
+  margin: 0 0 0 250px;
+}
+
 .animation{
   margin: 170px auto 0;
   width: -webkit-min-content;
@@ -321,7 +325,7 @@ b{
 
 .study-problem{
   border: 2px solid  #222;
-  border-radius: 20px;
+  border-radius: 10px;
   margin: 30px auto;
   width: 85%;
   background-color: #111;
@@ -387,7 +391,10 @@ b{
 }
 
 @media (max-width: 1150px){
-
+  .animation-wrap{
+    margin: 0;
+  }
+  
   .study-pic-custom{
       width: 575px;
       height: 230px;

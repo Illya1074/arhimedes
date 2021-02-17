@@ -90,6 +90,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    /* border: 1px solid white; */
     /* justify-content: space-between; */
     width: 350px;
 }
@@ -108,7 +109,8 @@
     /* font-family: 'Montserrat', sans-serif; */
     font-weight: 800;
     /* width: 330px; */
-    max-width: 300px;
+    width: 100%;
+    /* border: 1px solid white; */
     padding: 0 10px;
     text-align: left;
     font-style: italic;
@@ -171,6 +173,7 @@
     .home-intro-autor{
         margin: 50px 0 0 40px;
     }
+    
 
     .home-section-flex.content-section{
         -webkit-box-orient: vertical;
@@ -185,8 +188,7 @@
     }
 
     .home-section-content-text{
-        max-width: 100%;
-        text-align: left;
+        text-align: center;
         /* border: 1px solid white; */
     }
 
@@ -226,6 +228,11 @@
 
     .home-intro-autor{
         font-size: 24px;
+    }
+
+    .home-section-content-text{
+        text-align: left;
+        /* border: 1px solid white; */
     }
 
 }
