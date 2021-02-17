@@ -9,9 +9,7 @@ import './MyCss.css'
 import Twierdzenie from '../../Material/Wzory/Trygonymetria/TrygometryczneDefinicje'
 
 const Zadanie = () => {
-    useEffect(() => {
-        window.scrollTo(0, 0)
-      }, [])
+    
     return (
         <div>            
             <div className='study-problem'>
@@ -24,7 +22,7 @@ const Zadanie = () => {
             </div>
             
             <div className='study-line' />
-
+            
             <div className='study-content'>
                 Skoro mamy punkt
             </div>

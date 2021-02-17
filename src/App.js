@@ -6,7 +6,6 @@ import ReactGA from 'react-ga';
 import Navbar from './containers/Navbar/Navbar'
 import Sidebar from './containers/Sidebar/Sidebar'
 import Main from './containers/Main/Main'
-import Home from './containers/Home/Home'
 import {
   Switch,
   Route,
@@ -29,6 +28,7 @@ import Wielomiany from './containers/Material/Functions/Wielomiany/Teoria/Wielom
 import WartoscBezwglednaZadanie1 from './containers/MaturaPodstawowa/Liczby/Zadanie1'
 import Loading from './containers/PageElements/Loading/Loading';
 
+const Home = lazy(() => import('./containers/Home/Home'));
 const Kontakt = lazy(() => import('./containers/Kontakt/Kontakt'));
 const Onas = lazy(() => import('./containers/Onas/Onas'));
 const Korepetycje = lazy(() => import('./containers/Korepetycje/Korepetycje'));
@@ -405,34 +405,34 @@ function App() {
     <div className="App">
       <Navbar/>
       <Sidebar/>
-      <Main>
+      
         <Suspense fallback={<Loading/>}>
           <Switch>
             <Route exact path="/">
               <Home />
             </Route>
-            <Route exact path="/kontakt">
-              <Kontakt />
-            </Route>
-            <Route exact path="/korepetycje">
-              <Korepetycje />
-            </Route>
-            <Route exact path="/Onas">
-              <Onas />
-            </Route>
-            {
-              [...routeArrayCiagi, ...routeArrayRownania,...routeArrayLiczby,...routeArrayWielomiany,...routeArrayTeoria, ...routeArrayFunkcje,
-                ...routeArrayTrygonymetria,...routeArrayPotegi,...routeArrayLogarytmy,...routeArrayProcenty,...routeArrayNierownosci].map((item, i) => (
-                  <Route exact key={i} path= {item.route}>
-                    {item.component}
-                  </Route>
-                ) 
-              )
-            }
-          
+            <Main>
+              <Route exact path="/kontakt">
+                <Kontakt />
+              </Route>
+              <Route exact path="/korepetycje">
+                <Korepetycje />
+              </Route>
+              <Route exact path="/Onas">
+                <Onas />
+              </Route>
+                {
+                  [...routeArrayCiagi, ...routeArrayRownania,...routeArrayLiczby,...routeArrayWielomiany,...routeArrayTeoria, ...routeArrayFunkcje,
+                    ...routeArrayTrygonymetria,...routeArrayPotegi,...routeArrayLogarytmy,...routeArrayProcenty,...routeArrayNierownosci].map((item, i) => (
+                      <Route exact key={i} path= {item.route}>
+                        {item.component}
+                      </Route>
+                    ) 
+                  )
+                }
+              </Main>
           </Switch>
         </Suspense>
-      </Main>
       
     </div>
   );

@@ -7,68 +7,76 @@ import { BlockMath } from 'react-katex';
 const Home = () => {
     return (
         <div className="home">
-            <h1 className="home-title">Arhimedes</h1>
-            
-            <div className='home-flex'>
-                <div className="home-content">
-                    Już niedługo matura, warto zacząć przygotowania do egzaminów. Matura z matematyki 
-                    jest obowiązkowa więc warto udzielić trochę czasu na ćwiczenia zadań matematycznych
-                    typu co będą na maturze. Jeśli chcesz napisać matematykę z podstawy powyżej 67%
-                    to nasza strona będzie dobrym wyborem oraz z pewnością gwarantuje sukces.
-                </div>
 
-                <div className='home-logo'>
-                    <div/>
-                    <div/>
-                    <div/>
+            <div className="home-intro">
+                <div className="home-intro-title">
+                    <q>Nie przejmuj się, jeżeli masz problemy z matematyka. Zapewniam Cię, że ja mam jeszcze większe.</q>
                 </div>
-
+                <div className="home-intro-autor">
+                    <i>-&nbsp;Albert&nbsp;Einstein</i>
+                </div>
             </div>
 
-            <div className='study-line' />
-
-            <h1 className="home-title-little">Zadania</h1>
-
-
-            <div className='home-flex active'>
-                
-                <div className='home-img one'>
-                </div>
-
-                <div className="home-content">
-                    Wszystko co jest potrzebne to tylko praktyka oraz liczenie.
-                    Na naszej stronie odnajdziesz maturalne zadania z ubiegłych 
-                    lat co zapewni rozumieniu poziomu egzaminu oraz kształtuje
-                    umiejętność rozwiązywania tego typu zadań.
-
-                </div>
-
+            <div className="home-section">
+                <div className="home-section-flex">
+                    <div className="home-section-nummber_info">
+                        <div className="home-section-nummber_info-number">
+                            100+
+                        </div>
+                        <div className="home-section-nummber_info-text">
+                            Zadań&nbsp;maturalnych
+                        </div>
+                    </div>
+                    <div className="home-section-nummber_info">
+                        <div className="home-section-nummber_info-number">
+                            72%+
+                        </div>
+                        <div className="home-section-nummber_info-text">
+                            Wynik&nbsp;na&nbsp;maturze
+                        </div>
+                    </div>
+                    <div className="home-section-nummber_info">
+                        <div className="home-section-nummber_info-number">
+                            100+
+                        </div>
+                        <div className="home-section-nummber_info-text">
+                            Rozwiązań
+                        </div>
+                    </div>
+                </div>    
             </div>
 
-            <div className='study-line' />
-
-            <h1 className="home-title-little">Rozwiązania</h1>
-
-            
-            <div className='home-flex'>
-
-                <div className="home-content">
-                    Oczywiście jeśli nie jesteś w stanie rozwiązać jakieś zadanie
-                    wyjaśnimy w najbardziej szczegółowy oraz zrozumiały sposób.  
+            <div className="home-section">
+                <div className="home-section-flex content-section">
+                    <div className="home-section-content-flex">
+                        <div className="home-section-content-title">
+                            Czemu my???
+                        </div>
+                        <div className="home-section-content-text">
+                            Jeśli chcesz napisać matematykę z&nbsp;podstawy powyżej 72%
+                        to nasza strona będzie dobrym wyborem oraz z&nbsp;pewnością gwarantuje sukces. 
+                        </div>
+                    </div>
+                    <div className="home-section-content-flex">
+                        <div className="home-section-content-title">
+                            Zadania
+                        </div>
+                        <div className="home-section-content-text">
+                        Wszystko co jest potrzebne to tylko praktyka oraz liczenie.
+                        Na naszej stronie odnajdziesz maturalne zadania z&nbsp;ubiegłych 
+                        lat co zapewni rozumieniu poziomu egzaminu.  
+                        </div>
+                    </div>
+                    <div className="home-section-content-flex">
+                        <div className="home-section-content-title">
+                            Rozwiązania
+                        </div>
+                        <div className="home-section-content-text">
+                            Oczywiście jeśli nie jesteś w stanie rozwiązać jakieś zadanie wyjaśnimy w najbardziej szczegółowy oraz zrozumiały sposób.
+                        </div>
+                    </div>
                 </div>
-
-                <div className='home-img two'>
-                </div>
-
             </div>
-            
-            {/* <div className="my-block">
-                <BlockMath
-                    math={'\\sqrt{\\smash[b]{y}}\\left(x^{\\smash{2}}\\right)+\\color{#631b6b}{34}{\\pi=\\frac c d}\\cdot e^\\frac c d'}
-                    errorColor={'#cc0000'}
-                />
-            </div> */}
-
             
         </div>
     )

@@ -1,173 +1,253 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap');
 
-
-.home-title{
-    text-align: center;
-    font-size: 45px;
-    margin: 30px 0 0;
-    color: #111;
-    font-weight: bold;
-    font-family: 'Lato', sans-serif;
-}
-
-.home-title-little{
-    text-align: center;
-    font-size: 35px;
-    margin: 30px 0 0;
-    color: #111;
-    font-weight: bold;
-    font-family: 'Lato', sans-serif;
-}
-
-.home-content{
-    /* border: 1px solid black; */
-    /* padding: 25px 0; */
-    padding: 15px;
-    margin: 50px auto 0;
-    width: 45%;
-    font-size: 20px;
-    font-family: 'Lato', sans-serif;
-    text-align: justify;
+.home{
+    margin: 70px 0 0 250px;
 }
 
 
 
-
-.my-block{
-    border: #333 3px solid;
-    width: min-content;
-    margin: 20px auto;
-    padding: 0 20px;
-    border-radius: 20px;
-}
-
-
-
-.home-logo{
-    width: 250px;
-    height: 250px;
-    border: 10px solid #111;
-    -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.33); 
-    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.33);
-    padding: 30px;
-    border-radius: 30px;
-    margin: 50px auto 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-
-
-.home-logo > div{
-    width: 35px;
-    height: 100%;
+.home-intro{
+    /* overflow:auto; */
+    width: 100%;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+    padding: 100px 0 100px;
+    position: relative;
+    margin: 0;
     background-color: #111;
-
+    border-bottom: 1px solid #333;
 }
 
+.home-section{
+    width: 100%;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+    padding: 100px 0 100px;
+    position: relative;
+    margin: 0;
+    background-color: #111;
+    border-bottom: 1px solid #333;
+}
 
-.home-flex{
+.home-section-flex{
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: 90%;
     margin: 0 auto;
 }
 
-.home-img{
-    width: 250px;
-    height: 250px;
-    /* border: 1px solid #111; */
-    margin: 50px auto 0;
-    -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.33); 
-    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.33);
-    border-radius: 30px;
+.home-section-nummber_info{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
-.home-img.one{
-    background: url('./images/example.png') center/100% 100% no-repeat;
-}
-.home-img.two{
-    background: url('./images/example2.png') center/100% 100% no-repeat;
-}
-
-@media (max-width: 865px){
-    .home-flex{
-        flex-direction: column;
-        margin: 10px auto;
-    }
-    .home-flex.active{
-        flex-direction: column-reverse;
-    }
-    .home-content{
-        width: 75%;
-        margin: 15px auto 0;
-        padding: 10px 0;
-    }
-    .home-title{
-        margin: 10px auto 0;
-    }
-    .home-title-little{
-        margin: 15px auto 0;
-
-    }
-
+.home-section-nummber_info-number{
+    font-size: 70px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
+.home-section-nummber_info-text{
+    font-size: 17px;
+    color: #aaa;
+    font-family: 'Montserrat', sans-serif;
+}
 
-@media (max-width: 700px){
+.home-section-content-flex{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* justify-content: space-between; */
+    width: 350px;
+}
 
-    .home-content{
-        width: 85%;
-        font-size: 15px;
+.home-section-content-title{
+    margin: 0 0 20px;
+    font-size: 29px;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home-section-content-text{
+    font-size: 17px;
+    color: #aaa;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-weight: 800;
+    /* width: 330px; */
+    max-width: 300px;
+    padding: 0 10px;
+    text-align: left;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home-intro-autor{
+    word-spacing: 10px;
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+    line-height: 1;
+    margin: 0 0 0 90px;
+    /* border: 1px solid white; */
+    /* text-align: justify; */
+    text-justify: inter-word;
+    font-size: 30px;
+    color: #aaa;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home-intro-title{
+    word-spacing: 8px;
+    width: 90%;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+    line-height: 1.1;
+    margin: 0 0 50px 50px;
+    /* border: 1px solid white; */
+    /* text-align: justify; */
+    text-justify: inter-word;
+    font-size: 70px;
+    color: white;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1150px){
+    .home{
+        margin: 70px 0 0;
     }
 
-    .home-title{
-        font-size: 32px;
-        margin: 10px auto;
-
+    .home-intro-title{
+        font-size: 55px;
+         margin: 0 20px 20px 20px;
+        
     }
 
-    .home-title-little{
-        font-size: 26px;
-        margin: 10px auto;
-
+    .home-intro-autor{
+        margin: 50px 0 0 40px;
     }
 
-
-    .home-logo{
-        width: 300px;
-        height: 300px;
-        border: 7px solid #111;
-        padding: 30px;
+    .home-section-flex.content-section{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
+    .home-section-content-flex{
+        width: 90%;
+        margin: 40px auto;
+    }
 
-    .home-logo > div{
-        width: 40px;
-        height: 100%;
-        background-color: #111;
+    .home-section-content-text{
+        max-width: 100%;
+        text-align: left;
+        /* border: 1px solid white; */
+    }
+
+    .home-intro-autor{
+        font-size: 28px;
+    }
+}
+
+
+
+
+
+@media (max-width: 732px){
     
+    .home-section-flex{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
+
+    .home-intro-title{
+        font-size: 45px;
+    }
+
+    .home-section-nummber_info{
+        margin: 20px auto;        
+    }
+
+    .home-intro{
+        padding: 50px 0 50px;
+    }
+
+    .home-section{
+        padding: 20px 0 20px;
+    }
+
+    .home-intro-autor{
+        font-size: 24px;
+    }
+
 }
 
-@media (max-width: 400px){
-    .home-logo{
-        width: 200px;
-        height: 200px;
-        border: 7px solid #111;
-        padding: 20px;
+
+
+@media (max-width: 500px){
+    .home-intro-title{
+        font-size: 35px;
     }
 
-    .home-logo > div{
-        width: 25px;
+    .home-section-nummber_info-number{
+        font-size: 70px;
     }
 
-    .home-img{
-        width: 200px;
-        height: 200px;
+    .home-section-nummber_info-text{
+        text-align: center;
     }
+
+    .home-intro-autor{
+        font-size: 20px;
+    }
+   
 
 }
