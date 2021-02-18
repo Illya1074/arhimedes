@@ -41,10 +41,11 @@ const Korepetycje = () => {
                     <ul className="plan-features">
                     <li><i className="ion-checkmark"> </i>Zrozumiałe wyjaśnienie</li>
                     <li><i className="ion-checkmark"> </i>Indywidualne podejście</li>
-                    <li><i className="ion-checkmark"> </i>Kreatywne podejście do nauki</li>
+                    <li><i className="ion-checkmark"> </i>Luźna atmosfera</li>
                     <li><i className="ion-checkmark"> </i>Eksperymentalne metody nauczania</li>
                     <li><i className="ion-checkmark"> </i>Nauczanie zdalne</li>
                     <li><i className="ion-checkmark"> </i>Gwarancja sukcesu</li>
+                    <li><i className="ion-checkmark"> </i>Gwarantuję zwrócić pieniądzę jeśli nie pomogę</li>
                     </ul>
                     <div class="plan-select"><a href="https://www.instagram.com/__arhimedes__/">Napisz do mnie</a></div>
                 </div>
@@ -56,10 +57,11 @@ const Korepetycje = () => {
                     <ul className="plan-features">
                     <li><i className="ion-checkmark"> </i>Zrozumiałe wyjaśnienie</li>
                     <li><i className="ion-checkmark"> </i>Indywidualne podejście</li>
-                    <li><i className="ion-checkmark"> </i>Kreatywne podejście do nauki</li>
+                    <li><i className="ion-checkmark"> </i>Luźna atmosfera</li>
                     <li><i className="ion-checkmark"> </i>Eksperymentalne metody nauczania</li>
                     <li><i className="ion-checkmark"> </i>Nauczanie zdalne</li>
                     <li><i className="ion-checkmark"> </i>Gwarancja sukcesu</li>
+                    <li><i className="ion-checkmark"> </i>Gwarantuję zwrócić pieniądzę jeśli nie pomogę</li>
                     </ul>
                     <div class="plan-select"><a href="https://www.instagram.com/__arhimedes__/">Napisz do mnie</a></div>
                 </div>
@@ -71,10 +73,11 @@ const Korepetycje = () => {
                     <ul className="plan-features">
                     <li><i className="ion-checkmark"> </i>Zrozumiałe wyjaśnienie</li>
                     <li><i className="ion-checkmark"> </i>Indywidualne podejście</li>
-                    <li><i className="ion-checkmark"> </i>Kreatywne podejście do nauki</li>
+                    <li><i className="ion-checkmark"> </i>Luźna atmosfera</li>
                     <li><i className="ion-checkmark"> </i>Eksperymentalne metody nauczania</li>
                     <li><i className="ion-checkmark"> </i>Nauczanie zdalne</li>
                     <li><i className="ion-checkmark"> </i>Gwarancja sukcesu</li>
+                    <li><i className="ion-checkmark"> </i>Gwarantuję zwrócić pieniądzę jeśli nie pomogę</li>
                     </ul>
                     <div class="plan-select"><a href="https://www.instagram.com/__arhimedes__/">Napisz do mnie</a></div>
                 </div>
