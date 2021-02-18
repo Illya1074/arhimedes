@@ -45,7 +45,7 @@ const Korepetycje = () => {
                     <li><i className="ion-checkmark"> </i>Eksperymentalne metody nauczania</li>
                     <li><i className="ion-checkmark"> </i>Nauczanie zdalne</li>
                     <li><i className="ion-checkmark"> </i>Gwarancja sukcesu</li>
-                    <li><i className="ion-checkmark"> </i>Gwarantuję zwrócić pieniądzę jeśli nie pomogę</li>
+                    <li><i className="ion-checkmark"> </i>Gwarantowany zwrot pieniędzy gdy korepetycje okażą się nieskuteczne</li>
                     </ul>
                     <div className="plan-select"><a href="https://www.instagram.com/__arhimedes__/">Napisz do mnie</a></div>
                 </div>
@@ -61,7 +61,7 @@ const Korepetycje = () => {
                     <li><i className="ion-checkmark"> </i>Eksperymentalne metody nauczania</li>
                     <li><i className="ion-checkmark"> </i>Nauczanie zdalne</li>
                     <li><i className="ion-checkmark"> </i>Gwarancja sukcesu</li>
-                    <li><i className="ion-checkmark"> </i>Gwarantuję zwrócić pieniądzę jeśli nie pomogę</li>
+                    <li><i className="ion-checkmark"> </i>Gwarantowany zwrot pieniędzy gdy korepetycje okażą się nieskuteczne</li>
                     </ul>
                     <div className="plan-select"><a href="https://www.instagram.com/__arhimedes__/">Napisz do mnie</a></div>
                 </div>
@@ -77,7 +77,7 @@ const Korepetycje = () => {
                     <li><i className="ion-checkmark"> </i>Eksperymentalne metody nauczania</li>
                     <li><i className="ion-checkmark"> </i>Nauczanie zdalne</li>
                     <li><i className="ion-checkmark"> </i>Gwarancja sukcesu</li>
-                    <li><i className="ion-checkmark"> </i>Gwarantuję zwrócić pieniądzę jeśli nie pomogę</li>
+                    <li><i className="ion-checkmark"> </i>Gwarantowany zwrot pieniędzy gdy korepetycje okażą się nieskuteczne</li>
                     </ul>
                     <div className="plan-select"><a href="https://www.instagram.com/__arhimedes__/">Napisz do mnie</a></div>
                 </div>
