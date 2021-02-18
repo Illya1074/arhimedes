@@ -33,12 +33,14 @@
         -ms-flex-direction: row;
             flex-direction: row;
     margin: 0 0 0 15px;
+    /* border: 1px solid red; */
+    width: 240px;
 }
 
 .sidebar{
     position: fixed;
     top: 70px;
-    width: 250px;
+    width: 60px;
     padding: 20px 0 0 0;
     background-color:#111111;
     border-right: 1px solid #333;
@@ -47,6 +49,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    overflow: hidden;
     /* font-family: 'Roboto', sans-serif; *
     /
     font-weight: 300;
@@ -57,7 +60,15 @@
         -ms-flex-direction: column;
             flex-direction: column;
     z-index: 101;
+    transition: 0.1s;
+
 }
+
+.sidebar:hover{
+    width: 250px;
+    transition: 0.25s;
+}
+
 
 .sidebar-list-element{
     text-align: start;

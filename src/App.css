@@ -25,9 +25,6 @@ body{
 
 /* Lazy loading animation */
 
-.animation-wrap{
-  margin: 0 0 0 250px;
-}
 
 .animation{
   margin: 170px auto 0;

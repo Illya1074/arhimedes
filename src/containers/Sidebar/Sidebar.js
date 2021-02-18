@@ -54,6 +54,7 @@ const Sidebar = () => {
                         Nierówności
                     </div>
                 </div>
+            
                 <div className='sidebar-flex' onClick={() => buttonClick('/containers/MaturaPodstawowa/Trygomymetria/Zadanie1')}>
                     <Icon1 fill="#f2f2f2" height='30px' width="30px" className="sidebar-icon"/>
 
