@@ -10,7 +10,7 @@ const Korepetycje = () => {
                 <Icon fill="#111" height='55px' width="55px" className="korepetycje-icon"/>
                 
                 <div className="korepytecje-title">
-                    E-Korepetycje 
+                    EKorepetycje 
                 </div>
 
             </div>
