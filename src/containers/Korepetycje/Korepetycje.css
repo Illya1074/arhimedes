@@ -1,4 +1,4 @@
-@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+/* @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css); */
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:800);
 
@@ -23,15 +23,9 @@
     font-family: 'Lato', sans-serif;
 }
 
-@media (max-width: 700px){
-  .korepytecje-title-mail{
-    font-size: 20px;
-   
-}
-
-  .korepetycje{
-    margin-bottom: 30px;
-  }
+.korepetycje-icon{
+  width: 55px;
+  height: 55px;
 }
 
 .korepetycje-flex{
@@ -58,6 +52,23 @@
     text-align: justify;
 }
 
+@media (max-width: 700px){
+  
+  .korepetycje-icon{
+    width: 35px;
+    height: 35px;
+  }
+  
+  
+  .korepytecje-title-mail{
+    font-size: 20px;
+    
+  }
+
+  .korepetycje{
+    margin-bottom: 30px;
+  }
+}
 
 @media (max-width: 900px){
     .korepytecje-title{
@@ -71,7 +82,7 @@
 
 @media (max-width: 700px){
     .korepytecje-title{
-        font-size: 35px;
+        font-size: 30px;
     }
     .korepytecje-content>div{
         font-size: 15px;
