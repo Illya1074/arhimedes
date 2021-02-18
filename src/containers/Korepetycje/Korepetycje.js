@@ -47,7 +47,7 @@ const Korepetycje = () => {
                     <li><i className="ion-checkmark"> </i>Gwarancja sukcesu</li>
                     <li><i className="ion-checkmark"> </i>Gwarantowany zwrot pieniędzy gdy korepetycje okażą się nieskuteczne</li>
                     </ul>
-                    <div className="plan-select"><a href="https://www.instagram.com/__arhimedes__/">Napisz do mnie</a></div>
+                    <div className="plan-select"><a href="https://www.instagram.com/_arhimedes_/">Napisz do mnie</a></div>
                 </div>
                 <div className="plan">
                     <h3 className="plan-title">
@@ -63,7 +63,7 @@ const Korepetycje = () => {
                     <li><i className="ion-checkmark"> </i>Gwarancja sukcesu</li>
                     <li><i className="ion-checkmark"> </i>Gwarantowany zwrot pieniędzy gdy korepetycje okażą się nieskuteczne</li>
                     </ul>
-                    <div className="plan-select"><a href="https://www.instagram.com/__arhimedes__/">Napisz do mnie</a></div>
+                    <div className="plan-select"><a href="https://www.instagram.com/_arhimedes_/">Napisz do mnie</a></div>
                 </div>
                 <div className="plan featured">
                     <h3 className="plan-title">
@@ -79,7 +79,7 @@ const Korepetycje = () => {
                     <li><i className="ion-checkmark"> </i>Gwarancja sukcesu</li>
                     <li><i className="ion-checkmark"> </i>Gwarantowany zwrot pieniędzy gdy korepetycje okażą się nieskuteczne</li>
                     </ul>
-                    <div className="plan-select"><a href="https://www.instagram.com/__arhimedes__/">Napisz do mnie</a></div>
+                    <div className="plan-select"><a href="https://www.instagram.com/_arhimedes_/">Napisz do mnie</a></div>
                 </div>
             
             </div>
