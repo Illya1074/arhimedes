@@ -1,9 +1,10 @@
 import React from 'react'
 import './Home.css'
 import 'katex/dist/katex.min.css';
-
+import validator from 'validator'
 
 const Home = () => {
+    console.log(validator.isEmail('illia@sheremetov.com'))
     return (
         <div className="home">
 
